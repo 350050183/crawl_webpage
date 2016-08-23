@@ -68,7 +68,7 @@ chrome.runtime.onMessage.addListener(function(request, sender) {
 //step5 保存主播的数据
 function save_anchor_weight(anchor_id,weight){
       tips('saving...');
-      $.get('http://dev.caishenquan.com/foo.php',{'anchor_id':anchor_id,'weight':weight},function(data){
+      $.get('http://dev.domain.com/foo.php',{'anchor_id':anchor_id,'weight':weight},function(data){
         
         //是否有一个主播要抓取
         if(current_anchor_idx+1 < anchor_list.length){          
