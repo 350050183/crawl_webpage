@@ -13,3 +13,7 @@ A google chrome browser extension: automation crawl web pages and get particular
 
 The demo may be not work correctly because of target site's DOM changed.
 you can edit the sources as you wish.
+
+*Contact*
+
+350050183@qq.com
